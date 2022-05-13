@@ -34,6 +34,39 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <section className={styles.block}>
+          <div className="container">
+            <div className="row">
+              <div className={clsx('col')}>
+                <div className="text--center padding-horiz--md">
+                  <h3>You can make it!</h3>
+                  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/NmpEevMftoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className={styles.block}>
+          <div className="container">
+            <div className="row">
+              <div className={clsx('col')}>
+                <div className="text--center padding-horiz--md">
+                  <h3>LICENSE</h3>
+                  <p>Apache License 2.0</p>
+                </div>
+              </div>
+              <div className={clsx('col')}>
+                <div className="text--center padding-horiz--md">
+                  <h3>USED BY</h3>
+                  <p>
+                    <div><a href="">XXXXXXXX</a></div>
+                    <div><a href="">XXXXXXXX</a></div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
