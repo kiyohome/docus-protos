@@ -40,7 +40,11 @@ export default function Home() {
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
                   <h3>You can make it!</h3>
-                  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/NmpEevMftoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                  <p>
+                    <div className={styles.youtube}>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/NmpEevMftoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </p>
                 </div>
               </div>
             </div>
@@ -51,13 +55,13 @@ export default function Home() {
             <div className="row">
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
-                  <h3>LICENSE</h3>
+                  <h3>License</h3>
                   <p>Apache License 2.0</p>
                 </div>
               </div>
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
-                  <h3>USED BY</h3>
+                  <h3>Used by</h3>
                   <p>
                     <div><a href="">XXXXXXXX</a></div>
                     <div><a href="">XXXXXXXX</a></div>
