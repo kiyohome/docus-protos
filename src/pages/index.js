@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/quickstart">
-            Quickstart - 30min ⏱️
+            Quickstart - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function Home() {
                   <h3>You can make it!</h3>
                   <p>
                     <div className={styles.youtube}>
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/NmpEevMftoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/_An9EsKPhp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                   </p>
                 </div>
@@ -57,6 +57,14 @@ export default function Home() {
                 <div className="text--center padding-horiz--md">
                   <h3>License</h3>
                   <p>Apache License 2.0</p>
+                </div>
+              </div>
+              <div className={clsx('col')}>
+                <div className="text--center padding-horiz--md">
+                  <h3>Feedback</h3>
+                  <p>
+                    <div><a href="">GitHub Issues</a></div>
+                  </p>
                 </div>
               </div>
               <div className={clsx('col')}>

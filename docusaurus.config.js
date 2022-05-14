@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus',
-  tagline: 'Docusaurus are cool',
+  title: 'Xxxx',
+  tagline: 'Xxxx are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -52,9 +52,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Docusaurus',
+        title: 'Xxxx',
         logo: {
-          alt: 'Docusaurus Logo',
+          alt: 'Xxxx Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,7 +74,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Xxxx, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,

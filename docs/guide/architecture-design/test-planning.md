@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Test Planning
 
-テスト計画のやり方を伝える。
+フレームワークを活用したサービスのテスト計画のやり方を伝える。
 
