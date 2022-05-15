@@ -4,6 +4,6 @@ sidebar_position: 2
 
 # UX Design
 
-フレームワークを使う前提でUXデザインについて実践してきたノウハウを伝える。
+Communicate the know-how you have practiced about UX design with the assumption that you will use the framework.
 
-考え方を書いてテンプレートをDLできるようにする。
+Write down the concept and make the template DL-able.

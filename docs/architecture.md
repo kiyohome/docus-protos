@@ -4,6 +4,6 @@ sidebar_position: 2
 
 # Architecture
 
-何をどこまで提供しているのかフレームワークの全体像を伝える。
+Give an overall picture of the framework, what is being offered and to what extent.
 
-コンテンツの関係が分かるような図と各コンテンツの概要説明を書く。
+Draw a diagram that shows the relationship between the contents and a brief description of each content.

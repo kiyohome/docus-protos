@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Learning": {
+    "message": "学習",
+    "description": "The label for category Learning in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Guide": {
+    "message": "ガイド",
+    "description": "The label for category Guide in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Architecture Design": {
+    "message": "アーキテクチャ設計",
+    "description": "The label for category Architecture Design in sidebar docsSidebar"
+  }
+}

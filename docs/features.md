@@ -4,8 +4,7 @@ sidebar_position: 3
 
 # Features
 
-フレームワークの全ての提供機能に辿れるようにする。
+Allow tracing to all provided features of the framework.
 
-各機能の説明はリポジトリのREADMEに書いている想定。
-機能一覧と概要、各機能のリポジトリへのリンクを書く。
-
+The description of each feature is assumed to be written in the repository's README.
+Write a list of features, a summary, and a link to the repository for each feature.

@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Quickstart
 
-フレームワークを動かしてどんなものか見れるようにする。
+Run the framework so that you can see what it looks like.
 
-サンプルアプリをcloneして動かすまでの手順を書く。
+Write the steps to clone and run the sample app.

@@ -4,8 +4,8 @@ sidebar_position: 3
 
 # Tutorial
 
-フレームワークを使ったアプリ開発のやり方を伝える。
+Communicate how to develop an application using the framework.
 
-アーキテクチャの説明や実装方法を書く。
+Write a description of the architecture and how it is implemented.
 
-サンプルアプリのリポジトリに書いていれば、リンクだけでよい。
+If it is written in the sample app repository, just link to it.

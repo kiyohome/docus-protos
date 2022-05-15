@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Planning
 
-フレームワークを使う前提で企画提案と概算見積もりについて実践してきたノウハウを伝える。
+Communicate the know-how that you have practiced on the proposal and rough estimate on the premise of using the framework.
 
-考え方を書いてテンプレートをDLできるようにする。
+Write down the concept and make the template DL-able.

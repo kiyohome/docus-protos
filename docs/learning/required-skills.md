@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Required Skills
 
-フレームワークを利用する人の想定スキルを伝える。
+Communicate the assumed skills of the people who will use the framework.
 
-想定するスキルを書く。
+Write down the assumed skills.
