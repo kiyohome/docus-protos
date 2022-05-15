@@ -1,9 +1,11 @@
 # docus-protos
 
-フレームワークやライブラリなどのドキュメント作成をすぐに始められるようにDocusaurusベースでセットアップしたサンプルプロジェクトです。
+フレームワークやライブラリなどのドキュメント作成をすぐに始められるように[Docusaurus v2](https://docusaurus.io/)で作成したサンプルプロジェクトです。
 
-- [Docusaurus 2](https://docusaurus.io/)
+次の機能をセットアップしています。
+
 - [Docs-only mode](https://docusaurus.io/docs/docs-introduction#docs-only-mode)
+- [Internationalization](https://docusaurus.io/docs/i18n/introduction)
 
 ### Installation
 
