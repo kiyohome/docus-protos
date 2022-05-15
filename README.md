@@ -2,10 +2,11 @@
 
 フレームワークやライブラリなどのドキュメント作成をすぐに始められるように[Docusaurus v2](https://docusaurus.io/)で作成したサンプルプロジェクトです。
 
-次の機能をセットアップしています。
+次の機能をセットアップ済みです。
 
 - [Docs-only mode](https://docusaurus.io/docs/docs-introduction#docs-only-mode)
 - [Internationalization](https://docusaurus.io/docs/i18n/introduction)
+- [Versioning](https://docusaurus.io/docs/versioning)
 
 ### Installation
 
