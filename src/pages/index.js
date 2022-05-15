@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Translate from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -12,12 +13,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle"><Translate id='home.tagline'>Xxxx are cool</Translate></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/quickstart">
-            Quickstart - 5min ⏱️
+            <Translate id='home.quickstart.button'>Quickstart - 5min ⏱️</Translate>
           </Link>
         </div>
       </div>
@@ -39,7 +40,7 @@ export default function Home() {
             <div className="row">
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
-                  <h3>You can make it!</h3>
+                  <h3><Translate id='home.video.message'>You can make it!</Translate></h3>
                   <p>
                     <div className={styles.youtube}>
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/_An9EsKPhp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -55,13 +56,13 @@ export default function Home() {
             <div className="row">
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
-                  <h3>License</h3>
+                  <h3><Translate id='home.license.label'>License</Translate></h3>
                   <p>Apache License 2.0</p>
                 </div>
               </div>
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
-                  <h3>Feedback</h3>
+                  <h3><Translate id='home.feedback.label'>Feedback</Translate></h3>
                   <p>
                     <div><a href="">GitHub Issues</a></div>
                   </p>
@@ -69,7 +70,7 @@ export default function Home() {
               </div>
               <div className={clsx('col')}>
                 <div className="text--center padding-horiz--md">
-                  <h3>Used by</h3>
+                  <h3><Translate id='home.used-by.label'>Used by</Translate></h3>
                   <p>
                     <div><a href="">XXXXXXXX</a></div>
                     <div><a href="">XXXXXXXX</a></div>

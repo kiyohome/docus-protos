@@ -1,36 +1,28 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: (<Translate id="home.easy-to-use.title">Easy to Use</Translate>),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <Translate id="home.easy-to-use.desc">Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.</Translate>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: (<Translate id='home.focus-on-what-matters.title'>Focus on What Matters</Translate>),
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <Translate id='home.focus-on-what-matters.desc'>Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead and move your docs into the docs directory.</Translate>
     ),
   },
   {
-    title: 'Powered by React',
+    title: (<Translate id='home.powered-by-react.title'>Powered by React</Translate>),
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <Translate id='home.powered-by-react.desc'>Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.</Translate>
     ),
   },
 ];
@@ -38,7 +30,7 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      <div className="text--center">'
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
