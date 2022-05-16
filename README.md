@@ -47,11 +47,13 @@ $ yarn serve
 ```
 
 このコマンドはbuildディレクトリの静的コンテンツを配信します。
+これで多言語を含めた全てのコンテンツを同時に確認できます。
 
 ### デプロイ
 
 このリポジトリにはGitHub Pagesへの自動デプロイを行うGitHub Actionsの設定が含まれています。
 mainブランチにプッシュすると自動でデプロイされます。
+Pagesへの自動デプロイを行う場合は、リポジトリのSettings＞Actions＞General＞Workflow permissionsで「Read and write permissions」を選択してください。
 
 手動でデプロイしたい場合は次のコマンドで行います。
 
