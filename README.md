@@ -7,6 +7,7 @@
 - [Docs-only mode](https://docusaurus.io/docs/docs-introduction#docs-only-mode)
 - [Internationalization](https://docusaurus.io/docs/i18n/introduction)
 - [Versioning](https://docusaurus.io/docs/versioning)
+- [Deploying to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
 
 ### Installation
 
