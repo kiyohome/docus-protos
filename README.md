@@ -10,40 +10,61 @@
 - [Deploying to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
 - [Triggering deployment with GitHub Actions](https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions)
 
-### Installation
+### インストール
 
 ```
 $ yarn
 ```
 
-### Local Development
+### ローカル開発
+
+ローカル開発では多言語を同時に確認できません。
+enの開発は次のコマンドで行います。
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+このコマンドはローカルの開発サーバーを起動しブラウザウィンドウを開きます。
+サーバーを再起動することなく、ほとんどの変更はすぐに反映されます。
 
-### Build
+jaの開発は次のコマンドで行います。
+
+```
+$ yarn start --locale ja
+```
+
+### 多言語の動作確認
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+このコマンドはbuildディレクトリに静的コンテンツを生成します。
 
-### Deployment
+```
+$ yarn serve
+```
 
-Using SSH:
+このコマンドはbuildディレクトリの静的コンテンツを配信します。
+
+### デプロイ
+
+このリポジトリにはGitHub Pagesへの自動デプロイを行うGitHub Actionsの設定が含まれています。
+mainブランチにプッシュすると自動でデプロイされます。
+
+手動でデプロイしたい場合は次のコマンドで行います。
+
+SSHを使う場合：
 
 ```
 $ USE_SSH=true yarn deploy
 ```
 
-Not using SSH:
+SSHを使わない場合：
 
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+このコマンドは静的コンテンツを生成してgh-pagesブランチにプッシュします。
