@@ -8,6 +8,7 @@
 - [Internationalization](https://docusaurus.io/docs/i18n/introduction)
 - [Versioning](https://docusaurus.io/docs/versioning)
 - [Deploying to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
+- [Triggering deployment with GitHub Actions](https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions)
 
 ### Installation
 
