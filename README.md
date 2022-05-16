@@ -10,6 +10,13 @@
 - [Deploying to GitHub Pages](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
 - [Triggering deployment with GitHub Actions](https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions)
 
+こちらもセットアップしたかったのですが[サンプルのドキュメントは対象に含まれていない](https://docsearch.algolia.com/docs/who-can-apply/)ので未実施です。
+
+- [Using Algolia DocSearch](https://docusaurus.io/docs/search#using-algolia-docsearch)
+  - こちらを見ると簡単に強力な検索機能を追加できそうです。
+    - [Docusaurus v2のページにAlgolia DocSearchを導入する](https://qiita.com/tetunori_lego/items/b050cac1a2b7fc5a1b18)
+
+
 ### インストール
 
 ```
